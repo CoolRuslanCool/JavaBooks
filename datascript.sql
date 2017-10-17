@@ -6,11 +6,11 @@ CREATE TABLE book(
   author VARCHAR(100) NOT NULL,
   isbn VARCHAR(20) NOT NULL,
   printYear INT NOT NULL,
-  readAlredy BOOLEAN NOT NULL,
+  readAlready BOOLEAN NOT NULL,
 PRIMARY KEY (id))
   ENGINE = InnoDB
   DEFAULT CHARACTER SET = utf8;
-INSERT INTO book (title, description, author, isbn, printYear, readAlredy)
+INSERT INTO book (title, description, author, isbn, printYear, readAlready)
 VALUES ('Как Незнайка был музыкантом.','В нашей стране нет ни одного человека, который не знал бы имени Николая Николаевича Носова.','Николай Носов.','978-5-389-07233-6',2014,FALSE),
   ('Песочные часы.','Вениамину Каверину чудесным образом удалось соединить в сказке реальность и фантастику. Главные герои - обыкновенные школьники, с недостатками, как у всех детей: один болтлив, второй трусоват и рассеян, третий - хвастунишка...','978-5-9268-1610-2','Вениамин Каверин.',2014,FALSE),
   ('Конец света. Первые итоги.','"Книги - это бумажные тигры с картонными зубами, это усталые хищники, которые вот-вот попадут на обед другим зверям. Зачем упираться, продолжая читать эти неудобные штуки?','Фредерик Бегбедер.','978-5-389-07164-3',2014,FALSE),
